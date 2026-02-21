@@ -1,0 +1,875 @@
+/* General Styles */
+html {
+    font-size: 16px; /* This sets the base font size for the entire document */
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #141414; /* Dark background similar to Visual Studio */
+    color: #e5e5e5; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Navigation Panel */
+#nav-panel {
+    background-color: #181818; /* Slightly darker background for navigation */
+    padding: 1rem; /* Use relative padding */
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    height: 6%; /* 1/5 of the vertical space */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 0.5rem; /* Ensure it's aligned to the left with no margin */
+    margin-right: 0.5rem; /* Ensure it's aligned to the left with no margin */
+}
+
+#nav-panel h1 {
+    font-size: 1.5rem; /* 24px equivalent relative to base font size */
+    color: #007ACC; /* Visual Studio's signature blue color */
+    margin-left: 0.5rem; /* Ensure it's aligned to the left with no margin */
+    margin-right: 0.5rem; /* Ensure it's aligned to the left with no margin */
+}
+
+#add-course-button {
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap; /* Prevent button text from wrapping */
+    margin-right: 0.5rem; /* Ensure it's aligned to the left with no margin */
+}
+
+#add-course-button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+#add-course-button:focus {
+    outline: 0px solid white; /* White outline on focus */
+    box-shadow: 0 0 0 0px white; /* White inset shadow on focus */
+  }
+
+#course-buttons-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping */
+    gap: 0.5rem; /* Adds space between buttons */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin-left: 0.5rem; /* Ensure it's aligned to the left with no margin */
+    margin-right: 0.5rem; /* Ensure it's aligned to the left with no margin */
+    justify-content: left;
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+#course-buttons-container::-webkit-scrollbar {
+    display: none; /* Webkit browsers (Chrome, Safari) */
+}
+
+#show-hidden-courses-button {
+    min-width: 5rem;
+}
+
+
+#classButtons, #show-hidden-courses-button, #set-study-days-button, #add-content-button, #add-random-day-button, #set-study-types-button, #add-to-do-button {
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap; /* Prevent button text from wrapping */
+    margin-bottom: 0.5rem; /* Add vertical spacing */
+}
+
+#study-days-label {
+    white-space: nowrap; /* Prevent button text from wrapping */
+}
+
+#study-days-input, #content-name, #study-types-input, #to-do-editor {
+    margin-left: 10px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: 1px solid white; /* White outline on focus */
+    box-shadow: 0 0 0 1px white; /* White inset shadow on focus */
+}
+
+#to-do-editor {
+    width:50rem;
+}
+
+#save-study-days-button, #save-content-button, #save-study-types-button {
+    margin-left: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#save-study-days-button:hover, #save-content-button:hover, #save-study-types-button:hover {
+    background-color: #005f99;
+}
+
+#classButtons:hover, #show-hidden-courses-button:hover, #set-study-days-button:hover, #add-content-button:hover, #add-random-day-button:hover, #set-study-types-button:hover, #add-to-do-button:hover {
+    background-color: #b8b8b8; /* Darker blue on hover */
+}
+
+/* Main Working Area */
+#main-content {
+    display: flex;
+    flex-grow: 1; /* Take remaining space after nav panel */
+    height: calc(100vh - 6%); /* Adjust height to take the remaining viewport height */
+    overflow: hidden; /* Prevent main content from overflowing */
+}
+
+/* Left Content Area */
+#left-content {
+    flex: 2; /* 2/3 of the remaining horizontal space */
+    padding: 1.25rem; /* 20px equivalent, relative to base font size */
+    background-color: #1f1f1f; /* Darker background for content area */
+    box-shadow: 0.1875rem 0 0.3125rem rgba(0, 0, 0, 0.5); /* Subtle shadow on the right */
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100%; /* Take full height of the parent container */
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+#left-content::-webkit-scrollbar {
+    display: none; /* Webkit browsers (Chrome, Safari) */
+}
+
+/* Right Content Area */
+#right-content {
+    flex: 1; /* 1/3 of the remaining horizontal space */
+    padding: 1.25rem; /* 20px equivalent, relative to base font size */
+    background-color: #1f1f1f; /* Same dark background for content area */
+    box-shadow: -0.1875rem 0 0.3125rem rgba(0, 0, 0, 0.5); /* Subtle shadow on the left */
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100%; /* Take full height of the parent container */
+}
+
+#right-content::-webkit-scrollbar {
+    display: none; /* Webkit browsers (Chrome, Safari) */
+}
+
+
+#course-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; /* Space between the elements */
+    margin-top: 1rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#course-name {
+    background-color: #333;
+    color: #e5e5e5;
+    border: 1px solid #444;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+#course-name:focus {
+    outline: 1px solid white; /* White outline on focus */
+    box-shadow: 0 0 0 1px white; /* White inset shadow on focus */
+  }
+
+.button-container {
+    display: flex; /* Enable flexbox layout */
+    flex-direction: row; /* Arrange elements side-by-side */
+    align-items: center; /* Align buttons vertically with the textbox */
+    justify-content: space-between; /* Distribute space evenly */
+  }
+
+#create-course-button, #hide-course-button {
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start; /* Align button to the start of the flex container */
+}
+
+#cancel-create-course-button {
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start; /* Align button to the start of the flex container */
+}
+
+#create-course-button:hover, #cancel-create-course-button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Example Content Styling */
+#left-content h2, #right-content h2 {
+    margin: 0 0 0.625rem 0; /* 10px bottom margin */
+    font-size: 1.25rem; /* 20px equivalent relative to base font size */
+    color: #ffffff; /* White for heading text */
+}
+
+/* Date picker input styling */
+#date-picker, #content-date {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #007ACC;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#date-picker:focus, #content-date:focus {
+    border-color: #005f99;
+    box-shadow: 0 0 5px rgba(0, 95, 153, 0.5);
+    outline: none;
+}
+
+/* Date container styling */
+.date-container {
+    margin-top: 10px;
+    white-space: nowrap; /* Prevent line breaks */
+    overflow-x: auto; /* Enable horizontal scrolling */
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Date item styling */
+.date-item {
+    display: inline-block;
+    background-color: #007ACC;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.date-item span {
+    cursor: pointer;
+    margin-left: 10px;
+    color: orange;
+}
+
+.date-item:hover {
+    background-color: #005f99;
+}
+
+#course-lecture-buttons{
+    margin-top: 2rem;
+}
+
+#study-type-buttons {
+    margin-bottom: 2rem;
+}
+
+#date-picker-box {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+    margin-top: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    flex-wrap: nowrap; /* Prevents wrapping */
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+#content-grid-container {
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: #1f1f1f;
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.date-header {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.5rem;
+}
+
+/* CSS for Content Boxes */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0.0625rem solid #ccc; /* 1px equivalent */
+    border-radius: 0.3125rem; /* 5px equivalent */
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem; /* Adjust the width as needed */
+    height: 10rem; /* Adjust the height to make the box more square */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.content-box:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.05);
+}
+
+.content-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.days-studied {
+    font-size: 0.8rem; /* Smaller font size for days studied */
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.days-studied-container {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.days-studied-item {
+    margin: 0 0.25em;
+    background-color: #f0f0f0;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25em;
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.study-button, .study-type-button, .generate-questions-button, #generate-questions, .generic-button, .open-window-button, #generate-anki-button {
+    background-color: #f0f0f0;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.study-button:hover, .generic-button:hover, .open-window-button:hover, #generate-anki-button:hover {
+    background-color: #e0e0e0;
+}
+
+.study-button.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.study-button.inactive {
+    background-color: #f0f0f0;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+.name-input, .time-elapsed-input, .date-input {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: 1px solid white; /* White outline on focus */
+    box-shadow: 0 0 0 1px white; /* White inset shadow on focus */
+}
+
+.name-input:focus, .time-elapsed-input:focus, .date-input:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+
+#study-times-container {
+    overflow-y: auto;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.to-do-item.selected {
+    background-color: #66afe9;
+}
+
+.study-type-button, .generate-questions, .upload-media-button, .generate-study-page {
+    background-color: #f0f0f0;
+    margin: 0.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.study-type-button:hover, .generate-questions:hover, .upload-media-button:hover, .generate-study-page:hover {
+    background-color: #e0e0e0;
+}
+
+/*.generate-questions-running {
+    background-color: #007bff;
+    color: white;
+}*/
+
+/* REPLACE the old .generate-questions-running rule with this */
+.generate-questions-running {
+  /* keep the button's original background-color; we just add a moving stripe */
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    transparent 30%,
+    #007bff 45%,
+    #007bff 55%,
+    transparent 70%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  animation: ai-btn-loading 1.2s linear infinite;
+  /* optional: keep your original text color */
+  /* color: white; */
+}
+
+@keyframes ai-btn-loading {
+  0%   { background-position:   0% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Respect reduced motion preferences (optional but nice) */
+@media (prefers-reduced-motion: reduce) {
+  .generate-questions-running {
+    animation: none;
+    background-image: linear-gradient(90deg, #007bff 0, #007bff 100%);
+  }
+}
+
+
+.study-type-button.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+.study-type-button.inactive {
+    background-color: #f0f0f0;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+#study-times-table, #quiz-scores-table {
+    border-collapse: collapse;
+    width: 90%; /* Adjust this percentage as needed */
+    max-width: 100%;
+    margin: 0 auto;
+    table-layout: auto; /* Auto layout for flexible column width */
+}
+
+#study-times-table th, #study-times-table td, #quiz-scores-table th, #quiz-scores-table td {
+    border: 0.0625rem solid #ddd; /* 1px equivalent */
+    padding: 0.5rem; /* 8px equivalent */
+    text-align: center; /* Center text in table cells */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+#study-times-table th, #quiz-scores-table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* General input styling */
+.name-input {
+    width: 10rem;
+}
+
+.date-input {
+    width: 4rem;
+}   
+
+/* Specific styling for time elapsed input to make it more narrow */
+.time-elapsed-input {
+    width: 6rem; /* Adjust the width as needed */
+}
+
+#toggle-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+/* Style for the content-details container */
+#content-details {
+    background-color: white;
+    color: black;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    margin: 1.25rem 0;
+    max-width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for the content-name input to look like a header */
+.content-name-input {
+    width: 100%;
+    border: none;
+    border-bottom: 0.125rem solid black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    padding: 0.3125rem 0;
+    color: black;
+    background-color: transparent;
+}
+
+/* Remove input focus outline */
+.content-name-input:focus {
+    outline: none;
+    border-bottom: 0.125rem solid blue;
+}
+
+/* Style for the delete button */
+.delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: .25rem;
+}
+
+.delete-button:hover{
+    background-color: blue;
+}
+
+#content-details-button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem; /* Add some space below the buttons */
+    width: 100%;
+    white-space: nowrap;
+}
+
+#content-details-button-container::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1rem; /* Space after the button container */
+}
+
+#spacer-span {
+    display: block;
+    width: 100%;
+    height: 1rem; /* Space after the button container */
+    margin-top: 1rem;
+}
+
+.upload-media-button {
+    margin-right: 1rem; /* Add some space to the right of the upload button */
+}
+
+#content-details .new-line {
+    width: 100%;
+    display: block;
+}
+
+#calendar-input-container {
+    margin-top: 1rem;
+}
+
+#calendar-url-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    box-sizing: border-box;
+}
+
+#save-calendar-url-button {
+    padding: 0.5rem 1rem;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#save-calendar-url-button:hover {
+    background-color: #005bb5;
+}
+
+
+/* slide-viewer.css */
+
+#slide-viewer-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#left-side-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #141414; /* Dark background similar to Visual Studio */
+}
+
+#right-side-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #141414; /* Dark background similar to Visual Studio */
+    border-left: 2px solid #141414; /* Dark background similar to Visual Studio */
+}
+
+#slide-image {
+    max-width: 100%;
+    max-height: 66%;
+}
+
+#question-input,
+#notes-input, #topic-input {
+    width: 95%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #141414; /* Dark background similar to Visual Studio */
+    border-radius: 5px;
+    outline: 1px solid white; /* White outline on focus */
+    box-shadow: 0 0 0 1px white; /* White inset shadow on focus */
+}
+
+#question-input {
+    flex: 1;
+}
+
+#notes-input {
+    flex: 1;
+}
+
+#nav-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#prev-button,
+#next-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* --- To-Do drag & drop --- */
+#to-do-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.to-do-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.to-do-item.dragging {
+  opacity: 0.6;
+}
+
+.drag-handle {
+  cursor: grab;
+  user-select: none;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+
+#study-type-buttons-container {
+  margin-left: 35px; /* adjust this number until it lines up exactly */
+}
+
+#right-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.toggle-btn {
+  background: #f2f2f2;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toggle-btn.active {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.quiz-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#quiz-scores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+}
+
+#quiz-scores-table th,
+#quiz-scores-table td {
+  border-bottom: 1px solid #333;
+  padding: 6px 4px;
+}
+
+/* Place these in styles.css */
+
+/* Ensure the right panel can host a top bar that spans its full width */
+#right-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Toggle bar pinned at the very top of the right panel and full width */
+#right-toggle {
+  position: sticky;     /* stays at the top when the right panel scrolls */
+  top: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two buttons side by side */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Buttons fill their half, no gaps */
+#right-toggle .toggle-btn,
+#toggle-study-btn,
+#toggle-scores-btn {
+  width: 100%;
+  margin: 0;
+  padding: 0.6rem 0.75rem;
+  background: #f3f4f6;
+  color: #111827;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+  font: 600 0.95rem/1.2 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  cursor: pointer;
+}
+
+/* Active/selected state */
+#right-toggle .toggle-btn.active {
+  background: #ffffff;
+  color: #111827;
+  border-bottom-color: #3b82f6; /* accent underline for the active tab */
+}
+
+/* Hover and focus */
+#right-toggle .toggle-btn:hover {
+  background: #e5e7eb;
+}
+#right-toggle .toggle-btn:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: -2px;
+}
+
+
