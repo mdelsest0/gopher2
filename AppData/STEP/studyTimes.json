@@ -1,0 +1,974 @@
+[
+  {
+    "timeElapsed": 122.772,
+    "startTime": "9/11/2025, 7:38:43 AM",
+    "endTime": "9/11/2025, 7:40:46 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 3941.029,
+    "startTime": "9/13/2025, 2:40:38 PM",
+    "endTime": "9/13/2025, 3:46:19 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 1101.9,
+    "startTime": "9/13/2025, 6:05:47 PM",
+    "endTime": "9/13/2025, 6:24:09 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 3600.417,
+    "startTime": "9/14/2025, 9:34:35 AM",
+    "endTime": "9/14/2025, 9:34:36 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 1200.417,
+    "startTime": "9/14/2025, 2:58:47 PM",
+    "endTime": "9/14/2025, 2:58:47 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 2760.415,
+    "startTime": "9/15/2025, 7:46:58 AM",
+    "endTime": "9/15/2025, 7:46:59 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 2435.042,
+    "startTime": "9/15/2025, 7:47:11 AM",
+    "endTime": "9/15/2025, 8:27:46 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 1085.014,
+    "startTime": "9/16/2025, 7:23:27 AM",
+    "endTime": "9/16/2025, 7:41:32 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 29.175,
+    "startTime": "9/16/2025, 8:48:40 AM",
+    "endTime": "9/16/2025, 8:49:09 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 416.041,
+    "startTime": "9/16/2025, 8:49:20 AM",
+    "endTime": "9/16/2025, 8:56:16 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 1080.31,
+    "startTime": "9/16/2025, 1:19:33 PM",
+    "endTime": "9/16/2025, 1:19:34 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 22.776,
+    "startTime": "9/16/2025, 3:37:18 PM",
+    "endTime": "9/16/2025, 3:37:41 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 600.397,
+    "startTime": "9/16/2025, 3:53:09 PM",
+    "endTime": "9/16/2025, 3:53:09 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 229.15,
+    "startTime": "9/16/2025, 3:53:10 PM",
+    "endTime": "9/16/2025, 3:56:59 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 900.347,
+    "startTime": "9/16/2025, 4:12:48 PM",
+    "endTime": "9/16/2025, 4:12:48 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 3125.987,
+    "startTime": "9/16/2025, 4:54:15 PM",
+    "endTime": "9/16/2025, 5:46:21 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 1034.277,
+    "startTime": "9/17/2025, 6:30:30 PM",
+    "endTime": "9/17/2025, 6:47:45 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 1020.314,
+    "startTime": "9/17/2025, 7:27:41 PM",
+    "endTime": "9/17/2025, 7:27:41 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "Review"
+  },
+  {
+    "timeElapsed": 162.208,
+    "startTime": "10/31/2025, 1:00:18 PM",
+    "endTime": "10/31/2025, 1:03:00 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 944.0540000000001,
+    "startTime": "10/31/2025, 1:28:30 PM",
+    "endTime": "10/31/2025, 2:04:14 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2108.820000000007,
+    "startTime": "11/2/2025, 8:02:56 PM",
+    "endTime": "11/3/2025, 6:08:05 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3321.008,
+    "startTime": "11/3/2025, 6:35:59 PM",
+    "endTime": "11/3/2025, 8:10:20 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3121.369000000006,
+    "startTime": "11/5/2025, 10:03:48 PM",
+    "endTime": "11/8/2025, 9:55:49 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2547.601,
+    "startTime": "11/8/2025, 4:31:07 PM",
+    "endTime": "11/8/2025, 5:13:34 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 233.751,
+    "startTime": "11/10/2025, 6:52:20 PM",
+    "endTime": "11/10/2025, 6:56:13 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 101.941,
+    "startTime": "11/10/2025, 6:57:21 PM",
+    "endTime": "11/10/2025, 6:59:03 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 664.935,
+    "startTime": "11/10/2025, 6:59:40 PM",
+    "endTime": "11/10/2025, 7:10:45 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2962.421,
+    "startTime": "11/10/2025, 7:36:00 PM",
+    "endTime": "11/10/2025, 8:25:23 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 28.285,
+    "startTime": "11/12/2025, 12:56:27 PM",
+    "endTime": "11/12/2025, 12:56:56 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2877.241,
+    "startTime": "11/12/2025, 12:58:15 PM",
+    "endTime": "11/12/2025, 1:48:12 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 67.783,
+    "startTime": "11/12/2025, 1:49:16 PM",
+    "endTime": "11/12/2025, 1:50:24 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 930.366,
+    "startTime": "11/12/2025, 5:49:25 PM",
+    "endTime": "11/12/2025, 6:04:55 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 2079.912,
+    "startTime": "11/13/2025, 4:48:24 PM",
+    "endTime": "11/13/2025, 5:25:04 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2938.116,
+    "startTime": "11/14/2025, 9:42:43 AM",
+    "endTime": "11/14/2025, 10:31:41 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 2400.473,
+    "startTime": "11/15/2025, 10:29:32 AM",
+    "endTime": "11/15/2025, 10:29:33 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1200.421,
+    "startTime": "11/15/2025, 11:27:15 AM",
+    "endTime": "11/15/2025, 11:27:15 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "UWORLD"
+  },
+  {
+    "timeElapsed": 900.194,
+    "startTime": "11/15/2025, 1:14:11 PM",
+    "endTime": "11/15/2025, 1:14:11 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 900.456,
+    "startTime": "11/18/2025, 8:23:51 PM",
+    "endTime": "11/18/2025, 8:23:52 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2384.147,
+    "startTime": "11/18/2025, 8:23:52 PM",
+    "endTime": "11/18/2025, 9:03:37 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 300.199,
+    "startTime": "11/18/2025, 9:20:17 PM",
+    "endTime": "11/18/2025, 9:20:17 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 300.147,
+    "startTime": "11/18/2025, 9:20:18 PM",
+    "endTime": "11/18/2025, 9:20:18 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 1791.091,
+    "startTime": "11/19/2025, 9:30:47 AM",
+    "endTime": "11/19/2025, 10:20:38 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 1200.149,
+    "startTime": "11/19/2025, 10:20:42 AM",
+    "endTime": "11/19/2025, 10:20:42 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1764.707,
+    "startTime": "11/19/2025, 10:20:54 AM",
+    "endTime": "11/19/2025, 10:50:19 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2280.255,
+    "startTime": "11/21/2025, 5:36:41 PM",
+    "endTime": "11/21/2025, 5:36:41 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 3660.853,
+    "startTime": "11/21/2025, 5:37:04 PM",
+    "endTime": "11/21/2025, 6:38:05 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3000.167,
+    "startTime": "11/22/2025, 8:49:15 PM",
+    "endTime": "11/22/2025, 8:49:15 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3600.267,
+    "startTime": "11/23/2025, 7:18:39 PM",
+    "endTime": "11/23/2025, 7:18:39 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3000.367,
+    "startTime": "11/24/2025, 6:00:54 PM",
+    "endTime": "11/24/2025, 6:00:54 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1183.355,
+    "startTime": "11/24/2025, 6:00:55 PM",
+    "endTime": "11/24/2025, 6:20:39 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1800.141,
+    "startTime": "11/29/2025, 12:31:54 PM",
+    "endTime": "11/29/2025, 12:31:54 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 582.026,
+    "startTime": "11/29/2025, 12:31:58 PM",
+    "endTime": "11/29/2025, 12:41:40 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2047.391,
+    "startTime": "11/29/2025, 2:43:34 PM",
+    "endTime": "11/29/2025, 3:37:41 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1200.199,
+    "startTime": "11/29/2025, 4:17:37 PM",
+    "endTime": "11/29/2025, 4:17:37 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 4947.595,
+    "startTime": "11/29/2025, 4:18:24 PM",
+    "endTime": "11/29/2025, 6:00:51 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 4020.274,
+    "startTime": "11/30/2025, 9:07:00 PM",
+    "endTime": "11/30/2025, 9:07:01 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3864.133,
+    "startTime": "12/1/2025, 5:46:32 PM",
+    "endTime": "12/1/2025, 6:50:56 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "UWORLD"
+  },
+  {
+    "timeElapsed": 600.125,
+    "startTime": "12/2/2025, 5:10:25 PM",
+    "endTime": "12/2/2025, 5:10:25 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2037.962,
+    "startTime": "12/2/2025, 5:10:30 PM",
+    "endTime": "12/2/2025, 5:44:28 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 151.788,
+    "startTime": "12/3/2025, 1:55:16 PM",
+    "endTime": "12/3/2025, 1:57:48 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1200.14,
+    "startTime": "12/3/2025, 6:39:48 PM",
+    "endTime": "12/3/2025, 6:39:48 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 916.049,
+    "startTime": "12/3/2025, 6:42:53 PM",
+    "endTime": "12/3/2025, 6:58:10 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 4800.283,
+    "startTime": "12/4/2025, 5:51:44 PM",
+    "endTime": "12/4/2025, 5:51:45 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 845.154,
+    "startTime": "12/5/2025, 5:27:49 PM",
+    "endTime": "12/5/2025, 5:41:54 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1071.622,
+    "startTime": "12/5/2025, 5:43:16 PM",
+    "endTime": "12/5/2025, 6:01:08 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1113.389,
+    "startTime": "12/5/2025, 6:02:59 PM",
+    "endTime": "12/5/2025, 6:21:32 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 700.908,
+    "startTime": "12/5/2025, 6:28:47 PM",
+    "endTime": "12/5/2025, 6:40:28 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 266.80199999999604,
+    "startTime": "12/5/2025, 8:28:11 PM",
+    "endTime": "12/6/2025, 3:32:38 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3000.237,
+    "startTime": "12/6/2025, 7:18:48 PM",
+    "endTime": "12/6/2025, 7:18:49 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 219.506,
+    "startTime": "12/6/2025, 7:54:14 PM",
+    "endTime": "12/6/2025, 7:57:54 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1011.019,
+    "startTime": "12/6/2025, 7:59:47 PM",
+    "endTime": "12/6/2025, 8:16:38 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2893.39,
+    "startTime": "12/6/2025, 8:34:06 PM",
+    "endTime": "12/6/2025, 9:22:20 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3291.54,
+    "startTime": "12/7/2025, 5:51:38 PM",
+    "endTime": "12/7/2025, 6:46:29 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1029.039,
+    "startTime": "12/7/2025, 6:52:59 PM",
+    "endTime": "12/7/2025, 7:10:08 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1200.131,
+    "startTime": "12/7/2025, 7:44:08 PM",
+    "endTime": "12/7/2025, 7:44:09 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1882.7489999999998,
+    "startTime": "12/8/2025, 8:13:04 PM",
+    "endTime": "12/9/2025, 5:04:27 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1800.154,
+    "startTime": "12/9/2025, 6:30:49 PM",
+    "endTime": "12/9/2025, 6:30:49 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2700.222,
+    "startTime": "12/10/2025, 5:32:48 AM",
+    "endTime": "12/10/2025, 5:32:48 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 6216.175,
+    "startTime": "12/10/2025, 8:19:19 PM",
+    "endTime": "12/10/2025, 10:02:55 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 300.501,
+    "startTime": "12/11/2025, 10:37:54 AM",
+    "endTime": "12/11/2025, 10:37:55 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 667.287,
+    "startTime": "12/11/2025, 10:37:55 AM",
+    "endTime": "12/11/2025, 10:49:03 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 433.438,
+    "startTime": "12/11/2025, 10:49:07 AM",
+    "endTime": "12/11/2025, 10:56:21 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 879.033,
+    "startTime": "12/11/2025, 3:45:31 PM",
+    "endTime": "12/11/2025, 4:00:10 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 6532.26,
+    "startTime": "12/11/2025, 4:00:22 PM",
+    "endTime": "12/11/2025, 5:49:14 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 300.293,
+    "startTime": "12/12/2025, 5:19:32 AM",
+    "endTime": "12/12/2025, 5:19:32 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 1158.555,
+    "startTime": "12/12/2025, 5:19:33 AM",
+    "endTime": "12/12/2025, 5:38:51 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 1753.411,
+    "startTime": "12/12/2025, 5:38:52 AM",
+    "endTime": "12/12/2025, 6:08:06 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Content",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 459.179,
+    "startTime": "12/12/2025, 6:08:09 AM",
+    "endTime": "12/12/2025, 6:15:48 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 224.723,
+    "startTime": "12/12/2025, 6:34:12 AM",
+    "endTime": "12/12/2025, 6:37:56 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1246.21,
+    "startTime": "12/12/2025, 6:38:52 AM",
+    "endTime": "12/12/2025, 6:59:38 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 300.166,
+    "startTime": "12/12/2025, 12:52:27 PM",
+    "endTime": "12/12/2025, 12:52:27 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2210.52,
+    "startTime": "12/12/2025, 5:00:51 PM",
+    "endTime": "12/12/2025, 5:37:42 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 2019,
+    "startTime": "12/12/2025, 5:39:10 PM",
+    "endTime": "12/12/2025, 6:12:49 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 964.003,
+    "startTime": "12/12/2025, 6:15:43 PM",
+    "endTime": "12/12/2025, 6:31:47 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 5400.168,
+    "startTime": "12/13/2025, 12:41:44 PM",
+    "endTime": "12/13/2025, 12:41:44 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1620.514,
+    "startTime": "12/13/2025, 4:49:39 PM",
+    "endTime": "12/13/2025, 4:49:39 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 600.348,
+    "startTime": "12/13/2025, 4:49:41 PM",
+    "endTime": "12/13/2025, 4:49:41 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1852.545,
+    "startTime": "12/13/2025, 4:51:52 PM",
+    "endTime": "12/13/2025, 5:22:44 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 2391.659,
+    "startTime": "12/13/2025, 5:26:22 PM",
+    "endTime": "12/13/2025, 6:06:13 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 1.069,
+    "startTime": "12/13/2025, 6:06:14 PM",
+    "endTime": "12/13/2025, 6:06:16 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 2358.712,
+    "startTime": "12/13/2025, 6:27:37 PM",
+    "endTime": "12/13/2025, 7:06:56 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Questions",
+    "name": "AMBOSS"
+  },
+  {
+    "timeElapsed": 373.711,
+    "startTime": "12/14/2025, 8:44:46 PM",
+    "endTime": "12/14/2025, 8:50:59 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1382.042,
+    "startTime": "12/15/2025, 6:10:56 PM",
+    "endTime": "12/15/2025, 6:33:58 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 3048.6059999999998,
+    "startTime": "12/15/2025, 6:35:10 PM",
+    "endTime": "12/16/2025, 7:49:59 AM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 147.16200000000026,
+    "startTime": "12/16/2025, 12:52:52 PM",
+    "endTime": "12/16/2025, 3:42:20 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 5291.052,
+    "startTime": "12/16/2025, 3:51:00 PM",
+    "endTime": "12/16/2025, 5:19:11 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 4888.539,
+    "startTime": "12/17/2025, 11:07:08 AM",
+    "endTime": "12/17/2025, 12:28:37 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  },
+  {
+    "timeElapsed": 1578.598,
+    "startTime": "12/18/2025, 9:10:04 PM",
+    "endTime": "12/18/2025, 9:36:23 PM",
+    "courseId": 7163867945,
+    "contentId": null,
+    "studyType": "Bottom Up",
+    "name": "ANKING"
+  }
+]
